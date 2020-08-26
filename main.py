@@ -54,3 +54,11 @@ for row in users_result:
 
 for my_list_user in users_list:
     print(my_list_user.id, my_list_user.name, my_list_user.fullname)
+
+
+# select where
+
+select_where = select([users]).where(users.c.name == my_other_user.name )
+
+for row in conn.execute(select_where):
+    print(row)
