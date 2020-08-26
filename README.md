@@ -1,4 +1,4 @@
-# learning-sqlalchmery
+# learning-sqlalchemy
 Learning SQLAlchemy
 
 From: 
